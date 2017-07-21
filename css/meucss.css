@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-size: 16px;
+}
+
+.intro{
+	display: table-cell;
+	filter: grayscale(75%);
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	background: url(bola.png);
+	top: 0;
+	background-size: cover;
+}
+
+.inner{
+	margin-top: 200px;
+	vertical-align: middle;
+	max-width: none;
+	text-align: left;
+	text-indent: 50px;
+
+}
+
+
+.content h1{
+	font-family: 'Ubuntu', sans-serif;
+	color: #ffffff;
+	font-size: 700%;
+}
+
+
+.content h3{
+	font-family: 'Raleway', sans-serif;
+	color: #ffffff;
+	font-size: 200%;
+	word-wrap: break-word;
+}
+
+.btn{
+	margin-top: 100px;
+	padding-right: 380px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 200%;
+	padding-left: 200px;
+	border: solid 4px; 
+	text-transform: uppercase;
+	text-decoration: none;
+	width: 450px;
+	height: 75px;
+	margin-left: 100px;
+	color: red;
+	line-height: 2;
+
+}
+
+.btn:hover{
+	color: white;
+
+}
