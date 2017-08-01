@@ -8,7 +8,4 @@
   		</div>
 	</div>
 
-	<img src="soccer.png" class="img-responsive">
-
-
 <?include("rodape.php");?>

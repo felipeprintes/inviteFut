@@ -3,11 +3,11 @@
 
 <h1>Formulário de cadastro</h1>	
 <form action="usuarios.php" method="post">
-	<table class="table">
+	<table class="form-group-lg ">
 		<tr>
 			<td>Nome:</td>
 			<td><input type="text" class="form-control" name="nome" placeholder="Insira seu nome"></td>
-		</tr>
+		</tr><br>
 
 		<tr>
 			<td>Email: </td>
@@ -30,11 +30,13 @@
 			<td><input type="radio" name="sexo" class="form-control" value="mulher">Feminino</td>
 			<td><input type="radio" name="sexo" class="form-control" value="outros" checked>Outros</td>
 		</tr>
-
-
 	</table>
+	
+		<br><br><br><tr>
+			<button type="submit" class="btn btn-primary btn-lg btn-block" >Cadastrar</button>
+		</tr>
 
-	<h3>Em breve, cadastro com o Facebook</h3>
+	
 
 </form>
 
