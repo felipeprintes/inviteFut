@@ -2,7 +2,7 @@
 
 
 <h1>Formulário de cadastro</h1>	
-<form id="meu_formulario" action="adiciona_usuario.php" method="POST">
+<form name="formulario" action="adiciona_usuario.php" method="POST" onSubmit="return validacao();">
 	<table class="form-group-lg">
 		<tr>
 			<td>Nome:</td>
@@ -21,7 +21,7 @@
 
 		<tr>
 			<td>Confirmar Senha: </td>
-			<td><input type="password" class="form-control" name="confirm-senha" placeholder="Confirme sua senha"></td>
+			<td><input type="password" class="form-control" name="confirm_senha" placeholder="Confirme sua senha"></td>
 		</tr>
 
 		<tr>
