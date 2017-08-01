@@ -2,8 +2,8 @@
 
 
 <h1>Formulário de cadastro</h1>	
-<form action="usuarios.php" method="post">
-	<table class="form-group-lg ">
+<form id="meu_formulario" action="adiciona_usuario.php" method="POST">
+	<table class="form-group-lg">
 		<tr>
 			<td>Nome:</td>
 			<td><input type="text" class="form-control" name="nome" placeholder="Insira seu nome"></td>
@@ -33,13 +33,8 @@
 	</table>
 	
 		<br><br><br><tr>
-			<button type="submit" class="btn btn-primary btn-lg btn-block" >Cadastrar</button>
+			<a href="adiciona_usuario.php"><button type="submit" class="btn btn-primary btn-lg btn-block">Cadastrar</button></a>
 		</tr>
-
-	
-
 </form>
-
-
 
 <?php include("rodape.php"); ?>

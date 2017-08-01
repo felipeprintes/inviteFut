@@ -1,10 +1,19 @@
-<?php include("cabecalho.php");
-include("conecta.php");
-include("banco-usuario.php"); ?>
+<?php include("cabecalho.php"); ?>
+<?php include("conecta.php");?>
+<?php include("banco_usuario.php");?>
 
-<?php 
+<?php
 $nome = $_POST["nome"];
 $email = $_POST["email"];
 $senha = $_POST["senha"];
-$confirma_senha = $_POST["confirm-senha"];
+//$confirm_senha = $_POST["confirm_senha"];-> vai servir apenas para validação de formulário
 
+if(insereUsuario($conexao, $nome, $email, $senha)) { ?>
+    <p class="text-success">Usuário <?= $nome; ?>, <?= $email; ?> adicionado com sucesso!</p>
+      
+<?php } else { $msg=mysqli_error($conexao); ?> 
+    <p class="text-danger">Usuário <?= $nome; ?> não foi adicionado:<?= $msg?> </p>
+      
+<?php } ?>
+
+<?php include("rodape.php"); ?>
