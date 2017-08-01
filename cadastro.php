@@ -1,6 +1,7 @@
 <?php include("cabecalho.php"); ?>
 
 
+
 <h1>Formulário de cadastro</h1>	
 <form name="formulario" action="adiciona_usuario.php" method="POST" onSubmit="return validacao();">
 	<table class="form-group-lg">
@@ -33,8 +34,10 @@
 	</table>
 	
 		<br><br><br><tr>
-			<a href="adiciona_usuario.php"><button type="submit" class="btn btn-primary btn-lg btn-block">Cadastrar</button></a>
+			<button id="#botao" type="submit" class="btn btn-primary btn-lg btn-block">Cadastrar</button>
 		</tr>
 </form>
+
+
 
 <?php include("rodape.php"); ?>

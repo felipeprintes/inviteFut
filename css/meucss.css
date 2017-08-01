@@ -14,7 +14,17 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  filter: grayscale(70%);
+  filter: grayscale(60%);
+}
+
+.hero-text2{
+  line-height: 30px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  border-width: 50px;
 }
 
 .hero-text {
@@ -32,6 +42,15 @@ body, html {
 	font-family: 'Ubuntu', sans-serif;
 	color: #ffffff;
 	font-size: 180%;
+}
+
+.sem-cadastro{
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffffff;
+  font-size: 120%;
+  position: absolute;
+  top: 70%;
+  left: 40%;
 }
 
 .hero-text p{
@@ -58,6 +77,10 @@ body, html {
 	text-transform: uppercase;
 	width: 250px;
 	height: 70px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 

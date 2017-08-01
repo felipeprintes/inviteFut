@@ -24,4 +24,7 @@ function validacao(){
 		val.confirm_senha.focus();
 		return false;
 	}
+
 }
+
+

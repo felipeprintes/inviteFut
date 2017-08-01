@@ -8,10 +8,10 @@ $email = $_POST["email"];
 $senha = $_POST["senha"];
 //$confirm_senha = $_POST["confirm_senha"];-> vai servir apenas para validação de formulário
 
-if(insereUsuario($conexao, $nome, $email, $senha)) { ?>
-    <p class="text-success">Usuário <?= $nome; ?>, <?= $email; ?> adicionado com sucesso!</p>
+if(insereUsuario($conexao, $nome, $email, $senha)) { 
+    header("Location: index.php")?>
       
-<?php } else { $msg=mysqli_error($conexao); ?> 
+<?php  } else { $msg=mysqli_error($conexao); ?> 
     <p class="text-danger">Usuário <?= $nome; ?> não foi adicionado:<?= $msg?> </p>
       
 <?php } ?>
