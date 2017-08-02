@@ -14,6 +14,6 @@
   		</div>
 	</div>
 	<a href="cadastro.php"><h3 class="sem-cadastro">Não tenho conta</h3></a>
-	<a href="inicio.php"><button class="btn">Entrar</button></a>
+	<a href="inicio.php"><button class="btn btn-danger">Entrar</button></a>
 
 <?include("rodape.php");?>
